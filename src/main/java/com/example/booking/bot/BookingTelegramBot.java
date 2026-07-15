@@ -125,14 +125,3 @@ public class BookingTelegramBot extends TelegramLongPollingBot {
         }
     }
 }
-
-
-    // Оновлений конструктор
-//    public BookingTelegramBot(
-//            @Value("${telegram.bot.token}") String botToken,
-//            @Value("${telegram.bot.username}") String botUsername,
-//            AppointmentService appointmentService) { // Spring сам передасть сюди сервіс
-//        super(botToken);
-//        this.botUsername = botUsername;
-//        this.appointmentService = appointmentService;
-//    }
