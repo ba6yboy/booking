@@ -1,0 +1,7 @@
+### Отримати всі бронювання
+GET http://localhost:8080/api/appointments
+Accept: application/json
+
+### Отримати розклад на конкретний день
+GET http://localhost:8080/api/appointments/daily?date=2026-06-10
+Accept: application/json

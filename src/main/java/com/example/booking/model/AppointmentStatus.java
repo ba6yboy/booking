@@ -1,4 +1,7 @@
 package com.example.booking.model;
 
-public class AppointmentStatus {
+public enum AppointmentStatus {
+    PENDING,   // Очікує підтвердження
+    CONFIRMED, // Підтверджено
+    CANCELLED  // Скасовано
 }

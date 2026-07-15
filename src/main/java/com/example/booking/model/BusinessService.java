@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 
 @Entity
 @Table(name = "services")
-public class UserService {
+public class BusinessService {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,9 +21,9 @@ public class UserService {
     // Для грошей в Java ЗАВЖДИ використовуємо BigDecimal, щоб уникнути проблем із округленням double
     private BigDecimal price;
 
-    public UserService() {}
+    public BusinessService() {}
 
-    public UserService(String title, Integer durationMinutes, BigDecimal price) {
+    public BusinessService(String title, Integer durationMinutes, BigDecimal price) {
         this.title = title;
         this.durationMinutes = durationMinutes;
         this.price = price;
